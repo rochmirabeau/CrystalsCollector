@@ -79,6 +79,7 @@ $("#playerScore").css({
 
 //initialize game
  function startGame() {
+	fourRand();	
 	crystalNumbers = fourRand();
 	score = 0;
 	goal = 19 + Math.floor(Math.random() * 101);
